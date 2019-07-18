@@ -2,13 +2,15 @@
     border: 2px;
     border-style: outset;
     border-color: grey; 
-    padding: 20px;
     width: 960px;
     position: fixed;
     left: 170px;
-    top: 115px;
+    top: 110px;
     background-color: darkgrey;
     
+}
+.t101 {
+  padding-left: 10px;
 }
 .me {
     background-color: aqua;
@@ -101,6 +103,9 @@ nav {
     background-color: #ddd;
     color: black;
   }
+  .topnav a:focus {
+    background-color: aqua;
+  }
   .abb1 {
       border-right-style: solid;
       border-color: #777;
@@ -114,12 +119,12 @@ nav {
   .container {
     border: 2px;
     border-style: outset;
-    border-color: grey; 
-    padding: 20px;
+    border-color: grey;
+    padding: 5px;
     width: 800;
     position: fixed;
     left: 320px;
-    top: 150px;
+    top: 140px;
     background-color: darkgrey;
   }
 input[type=text], select, textarea {
@@ -145,4 +150,28 @@ input[type=text], select, textarea {
   
   input[type=submit]:hover {
     background-color: #777;
+  }
+  .port {
+    border: 2px;
+    border-style: outset;
+    border-color: grey; 
+    padding: 20px;
+    width: 700px;
+    position: fixed;
+    left: 260px;
+    top: 110px;
+    background-color: darkgrey;
+  }
+  .cont-1 {
+    position: relative;
+  }
+  .hang {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+
   }

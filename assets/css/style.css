@@ -4,8 +4,8 @@
     border-color: grey; 
     width: 960px;
     position: fixed;
-    left: 170px;
-    top: 110px;
+    left: 250px;
+    top: 130px;
     background-color: darkgrey;
     
 }
@@ -25,7 +25,7 @@
     left: 170px;
 
 }
-img {
+#pic {
     float: left;
     padding: 10px;
     
@@ -91,7 +91,7 @@ nav {
 .topnav {
     overflow: hidden;
   }
-  .topnav a {
+.topnav a {
     float: right;
     color: #f2f2f2;
     text-align: center;
@@ -99,24 +99,24 @@ nav {
     text-decoration: none;
     font-size: 17px;
   }
-  .topnav a:hover {
+.topnav a:hover {
     background-color: #ddd;
     color: black;
   }
-  .topnav a:focus {
+.topnav a:focus {
     background-color: aqua;
   }
-  .abb1 {
+.abb1 {
       border-right-style: solid;
       border-color: #777;
 
   }
-  .contact {
+.contact {
     border-right-style: solid;
     border-color: #777;
 
   }
-  .container {
+.container {
     border: 2px;
     border-style: outset;
     border-color: grey;
@@ -138,7 +138,7 @@ input[type=text], select, textarea {
     resize: vertical 
   }
   
-  input[type=submit] {
+input[type=submit] {
     background-color: #777;
     color: white;
     padding: 12px 20px;
@@ -148,30 +148,39 @@ input[type=text], select, textarea {
   }
   
   
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: #777;
   }
-  .port {
+.port {
     border: 2px;
     border-style: outset;
     border-color: grey; 
-    padding: 20px;
+    padding: 10px;
     width: 700px;
     position: fixed;
-    left: 260px;
-    top: 110px;
+    left: 360px;
+    top: 140px;
     background-color: darkgrey;
   }
-  .cont-1 {
-    position: relative;
+img{
+  padding: 0px;
   }
-  .hang {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-
+.img-1 {
+  position: relative;
+  z-index: 1;
+  margin: 5px;
+  width: 150px;
+  height: 150px;
+  float: left;
+  padding: 0px;
+}
+.prjtitle {
+  position: absolute;
+  z-index: 2;
+  background-color: teal;
+  color: white;
+  width: 150px;
+  height: 30px;
+  bottom: 2px;
+  left: 0%;
   }

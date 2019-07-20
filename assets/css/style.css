@@ -180,7 +180,15 @@ img{
   background-color: teal;
   color: white;
   width: 150px;
-  height: 30px;
+  height: 35px;
   bottom: 2px;
   left: 0%;
+  text-align: center;
+  padding-top: 2px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', "Times", "Times New Roman", 'serif';
+  }
+  div, p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   }
